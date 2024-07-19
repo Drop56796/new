@@ -1,14 +1,3 @@
----====== Load achievement giver ======---
-local achievementGiver = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Custom%20Achievements/Source.lua"))()
-
----====== Display achievement ======---
-achievementGiver({
-    Title = "Creepy client V2.01",
-    Desc = "Hi "..game.Players.LocalPlayer.Name.."",
-    Reason = "Have fun. Bye!",
-    Image = "rbxassetid://10802751252"
-})
-
 local success, Library = pcall(function()
     return loadstring(game:HttpGet("https://raw.githubusercontent.com/DarkSuffer/BasicallyAnDoors-EDITED/main/uilibs/Mobile.lua"))()
 end)
